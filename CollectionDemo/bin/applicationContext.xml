@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean id="employee" class="com.Employee">
+
+
+		<property name="empid">
+
+			<value>1</value>
+
+		</property>
+
+		<property name="empName">
+
+			<value>Purva</value>
+
+		</property>
+
+
+		<property name="programming">
+
+			<list>
+
+				<value>i. C</value>
+
+				<value>ii. C++</value>
+
+				<value>iii. Java</value>
+
+				<value>iv. Python</value>
+
+				<value>v. React</value>
+
+
+
+			</list>
+
+		</property>
+
+
+
+	</bean>
+
+
+
+</beans>
